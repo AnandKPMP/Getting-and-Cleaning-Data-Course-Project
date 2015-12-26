@@ -3,11 +3,11 @@ This Repository is created as part of Getting and Cleaning Data Course Project w
 
 # Pre-requiste for running the "run_analyis.R" script
 
-## Pre-requiste
+# Pre-requiste
 Please check the following before running the run_analyis script.
-1. Extract the Course Project files.
-2. Using setwd() function, set the current working directory to folder containing the "UCI HAR Dataset" folder 
-	e.g. setwd("C:\\Users\\CourseEra\\Projects")	
+1. Extract the Course Project files. \n 
+2. Using setwd() function, set the current working directory to folder containing the "UCI HAR Dataset" folder \n 
+	e.g. setwd("C:\\Users\\CourseEra\\Projects")	\n 
 3. Verify the same by executing "getwd()" function. 
 4. ** IMPORTANT ** Copy the  "Colnames.csv" file from repository to the current working folder. Use the Windows drag and drop feature to manually copy it.
 	This is CRITICAL STEP. If this step is done you will get the following ERROR Message during execution.
