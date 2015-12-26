@@ -7,9 +7,8 @@
 #       5.From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
 #Load Libraries
+install.packages("reshape2")
 library("reshape2")
-library("plyr")
-library("dplyr")
 
 ## Process Test Data First
         # Get Column names
