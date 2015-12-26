@@ -1,0 +1,70 @@
+RowID,Old Col,New Col
+1,tBodyAcc.mean...X,Mean  Time to obtain Body accelerometer Signal - X
+2,tBodyAcc.mean...Y,Mean  Time to obtain Body accelerometer Signal - Y
+3,tBodyAcc.mean...Z,Mean  Time to obtain Body accelerometer Signal - Z
+4,tBodyAcc.std...X,Standard Deviation of the Time to obtain Body Accelerometer  signal- X
+5,tBodyAcc.std...Y,Standard Deviation of the Time to obtain Body Accelerometer  signal- Y
+6,tBodyAcc.std...Z,Standard Deviation of the Time to obtain Body Accelerometer  signal- Z
+7,tGravityAcc.mean...X,Mean time to obtain Gravity accelerometer signal -X
+8,tGravityAcc.mean...Y,Mean time to obtain Gravity accelerometer signal -Y
+9,tGravityAcc.mean...Z,Mean time to obtain Gravity accelerometer signal -Z
+10,tGravityAcc.std...X,Standard Deviation of Time to obtain Gravity Accelerometer Signal - X
+11,tGravityAcc.std...Y,Standard Deviation of Time to obtain Gravity Accelerometer Signal - Y
+12,tGravityAcc.std...Z,Standard Deviation of Time to obtain Gravity Accelerometer Signal - Z
+13,tBodyAccJerk.mean...X,Mean of Time to Obtain Body Jerk Acceleromter signal - X
+14,tBodyAccJerk.mean...Y,Mean of Time to Obtain Body Jerk Acceleromter signal - Y
+15,tBodyAccJerk.mean...Z,Mean of Time to Obtain Body Jerk Acceleromter signal - Z
+16,tBodyAccJerk.std...X,Standard Deviation  of  Time to Obtain Body Jerk Acceleromter signal - X
+17,tBodyAccJerk.std...Y,Standard Deviation  of  Time to Obtain Body Jerk Acceleromter signal - Y
+18,tBodyAccJerk.std...Z,Standard Deviation  of  Time to Obtain Body Jerk Acceleromter signal - Z
+19,tBodyGyro.mean...X,Mean of Time to obtain Body Gyro signal - X
+20,tBodyGyro.mean...Y,Mean of Time to obtain Body Gyro signal - Y
+21,tBodyGyro.mean...Z,Mean of Time to obtain Body Gyro signal - Z
+22,tBodyGyro.std...X,Standard Deviation  of  Time to obtain Body Gyro signal - X
+23,tBodyGyro.std...Y,Standard Deviation  of  Time to obtain Body Gyro signal - Y
+24,tBodyGyro.std...Z,Standard Deviation  of  Time to obtain Body Gyro signal - Z
+25,tBodyGyroJerk.mean...X,Mean of Time to Obtain Body Gyro Jerk of signal - X
+26,tBodyGyroJerk.mean...Y,Mean of Time to Obtain Body Gyro Jerk of signal - Y
+27,tBodyGyroJerk.mean...Z,Mean of Time to Obtain Body Gyro Jerk of signal - Z
+28,tBodyGyroJerk.std...X,Standard Deviation  of  Time to Obtain Body Gyro Jerk of signal - X
+29,tBodyGyroJerk.std...Y,Standard Deviation  of  Time to Obtain Body Gyro Jerk of signal - Y
+30,tBodyGyroJerk.std...Z,Standard Deviation  of  Time to Obtain Body Gyro Jerk of signal - Z
+31,tBodyAccMag.mean..,Mean of Body Accelerometer Magnitute 3D signals
+32,tBodyAccMag.std..,Standard Deviation  of  Body Accelerometer Magnitute 3D signals
+33,tGravityAccMag.mean..,Mean of Gravity Accelerometer Magnitute signals
+34,tGravityAccMag.std..,Standard Deviation  of  Gravity Accelerometer Magnitute signals
+35,tBodyAccJerkMag.mean..,Mean of Body Accelerometer Jerk  Magnitute 3D signals
+36,tBodyAccJerkMag.std..,Standard Deviation  of  Body Accelerometer Jerk  Magnitute 3D signals
+37,tBodyGyroMag.mean..,Mean of Body Gyro Magnitude 3D signals
+38,tBodyGyroMag.std..,Standard Deviation  of  Body Gyro Magnitude 3D signals
+39,tBodyGyroJerkMag.mean..,Mean of Body Gyro Jerk  Magnitute 3D signals
+40,tBodyGyroJerkMag.std..,Standard Deviation  of  Body Gyro Jerk  Magnitute 3D signals
+41,fBodyAcc.mean...X,Mean of Frequency Domain Body Accelerometer Signal - X
+42,fBodyAcc.mean...Y,Mean of Frequency Domain Body Accelerometer Signal - Y
+43,fBodyAcc.mean...Z,Mean of Frequency Domain Body Accelerometer Signal - Z
+44,fBodyAcc.std...X,Standard Deviation  of  Frequency Domain Body Accelerometer Signal - X
+45,fBodyAcc.std...Y,Standard Deviation  of  Frequency Domain Body Accelerometer Signal - Y
+46,fBodyAcc.std...Z,Standard Deviation  of  Frequency Domain Body Accelerometer Signal - Z
+47,fBodyAccJerk.mean...X,Mean of Frequency  Body Accelerometer Jerk  Signal - X
+48,fBodyAccJerk.mean...Y,Mean of Frequency  Body Accelerometer Jerk  Signal - Y
+49,fBodyAccJerk.mean...Z,Mean of Frequency  Body Accelerometer Jerk  Signal - Z
+50,fBodyAccJerk.std...X,Standard Deviation  of  Frequency  Body Accelerometer Jerk  Signal - X
+51,fBodyAccJerk.std...Y,Standard Deviation  of  Frequency  Body Accelerometer Jerk  Signal - Y
+52,fBodyAccJerk.std...Z,Standard Deviation  of  Frequency  Body Accelerometer Jerk  Signal - Z
+53,fBodyGyro.mean...X,Mean of Frequency  Body Gryo  Signal - X
+54,fBodyGyro.mean...Y,Mean of Frequency  Body Gyro  Signal - Y
+55,fBodyGyro.mean...Z,Mean of Frequency  Body Gyro  Signal - Z
+56,fBodyGyro.std...X,Standard Deviation  of  Frequency  Body Gryo  Signal - X
+57,fBodyGyro.std...Y,Standard Deviation  of  Frequency  Body Gyro  Signal - Y
+58,fBodyGyro.std...Z,Standard Deviation  of  Frequency  Body Gyro  Signal - Z
+59,fBodyAccMag.mean..,Mean of Frequency Body Accelerometer  Magnitute 3D signals
+60,fBodyAccMag.std..,Standard Deviation  of  Frequency Body Accelerometer  Magnitute 3D signals
+61,fBodyBodyAccJerkMag.mean..,Mean of Frequency Body Accelerometer Jerk  Magnitute 3D signals
+62,fBodyBodyAccJerkMag.std..,Standard Deviation  of  Frequency Body Accelerometer Jerk  Magnitute 3D signals
+63,fBodyBodyGyroMag.mean..,Mean of Frequency Body Gyro  Magnitute 3D signals
+64,fBodyBodyGyroMag.std..,Standard Deviation  of  Frequency Body Gyro  Magnitute 3D signals
+65,fBodyBodyGyroJerkMag.mean..,Mean of Frequency Body Gyro Jerk  Magnitute 3D signals
+66,fBodyBodyGyroJerkMag.std..,Standard Deviation  of  Frequency Body Gyro Jerk  Magnitute 3D signals
+67,Activities,Activities
+68,Subjects,Subjects
+69,TestOrTrain,Row from Training or Testing Data Set
