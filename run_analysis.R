@@ -37,19 +37,19 @@ library("reshape2")
         Test_Data_MeanStd$Activities <-  Test_Activity # Activity Data
         Test_Data_MeanStd$Subjects <- Test_Subjects$Subjects  # Subject Data
         # Add a Column to denote if the row is from Test data or Train data
-        Test_Train <- data.frame(rep("Testing",2947))
-        colnames(Test_Train) <- "Test or Train"
+        Test_Train <- data.frame(rep("Testing",length(Test_Activity)))
+        
         Test_Data_MeanStd$TestOrTrain <- Test_Train$`Test or Train`
         
 
-#Process Train Data Set
-        #Step 1 Read TRain data
+#Process Training Data Set
+        #Step 1 Read Training data
         Train_Data <- read.table (".\\UCI HAR Dataset\\train\\X_train.txt",col.names = valid_labels)
         
-        #Read Test Subjects
+        #Read Training Subjects
         Train_Subjects <- read.table(".\\UCI HAR Dataset\\train\\subject_train.txt", col.names = "Subjects")
         
-        #Read  Test Activity
+        #Read  Training Activity
         Train_Activity <- read.table(".\\UCI HAR Dataset\\train\\y_train.txt",col.names = "Activity")
         #Get the Description for the activities
         Train_Activity <- sapply(Train_Activity, function(x)  Activity_Desc[x,2] )
@@ -62,7 +62,7 @@ library("reshape2")
         Train_Data_MeanStd$Subjects <- Train_Subjects$Subjects  # Subject Data
         # Add a Column to denote if the row is from Test data or Train data
         Test_Train <- data.frame(rep("Training",length(Train_Activity)))
-        colnames(Test_Train) <- "Test or Train"
+        
         Train_Data_MeanStd$TestOrTrain <- Test_Train$`Test or Train`
 
         # Merge Train and Test Data.
